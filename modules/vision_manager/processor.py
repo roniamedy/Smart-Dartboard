@@ -2,6 +2,10 @@ import cv2
 import numpy as np
 
 class FrameProcessor:
+    """
+    This class takes the frame from camera.py and 
+    turns it into a useable information (clean frame)
+    """
     def warp_frame(self, frame, corners):
         self.frame = frame
         self.corners = corners
