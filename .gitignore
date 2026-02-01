@@ -1,6 +1,15 @@
-.venv/
+# Python garbage
 __pycache__/
+*.pyc
+
+# virtual surroundings 
+.venv/
+env/
+venv/
+
+# VS Code settings
 .vscode/
+# any kind of picture or video
 *.jpg
 *.jpeg
 *.png
