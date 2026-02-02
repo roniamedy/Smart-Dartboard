@@ -20,5 +20,5 @@ class FrameProcessor:
         # get the math behind the warp
         Matrix = cv2.getPerspectiveTransform(source_points, destination_points)
         # warp the frame
-        result = cv2.warpPerspective(frame, Matrix, self.size)
-        return result
+        current_frame = cv2.warpPerspective(frame, Matrix, self.size)
+        return current_frame

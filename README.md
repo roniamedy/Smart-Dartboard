@@ -14,15 +14,17 @@ This project is currently **under development** and is intended to work with sta
 
 ## 📂 Project Structure
 ```text
-Smart Dartboard/
+Smart-Dartboard/
 │
 ├── modules/
 │   ├── game_engine/
 │   └── vision_manager/ 
 │       ├── camera.py
+│       ├── detector.py
 │       ├── processor.py   
 │       └── vision_manager.py 
 │
-├── .gitignore     
+├── .gitignore
+├── LICENSE     
 ├── main.py      
-└── README.md      
+└── README.md     
